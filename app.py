@@ -9,7 +9,7 @@ import random
 MONGO_URI = "mongodb+srv://yazidmoundher_db_user:L9chQ2YsVoEITXIl@cluster0.siqi7ho.mongodb.net/?appName=Cluster0"
 client = MongoClient(MONGO_URI)
 db = client["questup"]
-event_emails = db["devup_emails"]
+event_emails = db["event_emails"]
 teams_collection = db["teams"]
 
 DEPARTMENT_DISTRIBUTION = {
