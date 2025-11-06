@@ -22,7 +22,7 @@ DEPARTMENT_DISTRIBUTION = {
 
 NUM_TEAMS = 9
 TEAM_SIZE = 8
-MIN_OLD_PER_TEAM = 2
+MIN_OLD_PER_TEAM = 1
 
 # ------------------------------
 # FLASK SETUP
