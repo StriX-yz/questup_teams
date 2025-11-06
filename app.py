@@ -142,7 +142,8 @@ def generate_teams_route():
     teams_collection.insert_many(teams)
 
     for t in teams:
-        t['members'].pop("_id", None)
+        for m in t['members']:
+            m.pop("_id", None)
 
     # Return the JSON directly
     return jsonify(teams), 200
